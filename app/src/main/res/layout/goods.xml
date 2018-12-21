@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <CheckBox
+       android:id="@+id/check_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/icon_goods"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_goods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sss"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/price_goods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="价格"/>
+
+            <com.bw.ymy.zonghe1.view.CountView
+                android:id="@+id/counview_goods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </com.bw.ymy.zonghe1.view.CountView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
